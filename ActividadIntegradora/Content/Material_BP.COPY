@@ -1,0 +1,49 @@
+Begin Object Class=/Script/Engine.Material Name="Material_BP"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionVectorParameter'"Material_BP:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionScalarParameter'"Material_BP:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=EFC83EC64408E60E4E341B9F4CC002A2
+      Material=Material'"Material_BP"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="Emissive"
+      ExpressionGUID=144C80A04346447B33223689F6FAE903
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=C8CA7D6E402E2EF40DA634A5B5E1EB52
+      Material=Material'"Material_BP"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.973958,G=0.000000,B=0.007623,A=1.000000)
+      ParameterName="Color_Rojo"
+      ExpressionGUID=8D685A8F4D34C8C8078A1E9C8CCCA46E
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=C328E28A48DA1B5BC177578C8B84DEBE
+      Material=Material'"Material_BP"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(2)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=3DAF6089452E781DC0809290026D97CB
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(3775951208358729996),ParameterInfos=((Name="Emissive")),ExpressionGuids=(144C80A04346447B33223689F6FAE903)),RuntimeEntries[1]=(NameHashes=(3109236154417780107),ParameterInfos=((Name="Color_Rojo")),ExpressionGuids=(8D685A8F4D34C8C8078A1E9C8CCCA46E)),ScalarValues=(1.000000),VectorValues=((R=0.973958,G=0.000000,B=0.007623,A=1.000000)),ScalarMinMaxValues=((X=0.000000,Y=0.000000)),ScalarCurveValues=(None),ScalarCurveAtlasValues=(None),VectorChannelNameValues=(()),VectorUsedAsChannelMaskValues=(False)),QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=E3E95E344C7298497629A48168CCA7E0
+End Object
